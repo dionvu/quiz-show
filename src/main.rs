@@ -79,6 +79,17 @@ fn main() {
             text: String::from("test"),
             options: ["Fe".to_string(), "Ag".to_string(), "Au".to_string(), "Hg".to_string()],
             answer: String::from("Au"),
+        },
+        Question {
+            text: String::from("What is the setting of 'To Kill a Mockingbird'?"),
+            options: ["Maycomb, Alabama".to_string(), "London, England".to_string(), 
+                "New York City, New York".to_string(), "Los Angeles, California".to_string()],
+            answer: String::from("Maycomb, Alabama"),
+        },
+        Question {
+            text: String::from("Which art movement is characterized by distorted shapes and vivid colors, often conveying emotion?"),
+            options: ["Impressionism".to_string(), "Cubism".to_string(), "Abstract Expressionism".to_string(), "Surrealism".to_string()],
+            answer: String::from("Expressionism"),
         }
     );
 
