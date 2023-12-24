@@ -1,4 +1,5 @@
 use std::io;
+use colored::Colorize;
 
 struct Question {
     text: String,
@@ -31,11 +32,11 @@ impl Quiz {
                 let input: &str = input.trim(); // trims the whitespace from input
 
                 if input == question.answer {
-                    println!("That is the correct answer!");
+                    println!("{}", "That is the correct answer!".green());
                     return true;
                 }
                 else {
-                    println!("I'm sorry that is the wrong answer");
+                    println!("{}", "I'm sorry that is the wrong answer".red());
                     return false;
                 }
             }
