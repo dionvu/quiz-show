@@ -90,6 +90,16 @@ fn main() {
             text: String::from("Which art movement is characterized by distorted shapes and vivid colors, often conveying emotion?"),
             options: ["Impressionism".to_string(), "Cubism".to_string(), "Abstract Expressionism".to_string(), "Surrealism".to_string()],
             answer: String::from("Expressionism"),
+        },
+        Question {
+            text: String::from("In the anime 'Attack on Titan,' what is the name of the elite group of soldiers using omni-directional mobility gear to fight Titans?"),
+            options: ["Survey Corps".to_string(), "Garrison Regiment".to_string(), "Military Police Brigade".to_string(), "104th Training Corps".to_string()],
+            answer: String::from("Survey Corps"),
+        },
+        Question {
+            text: String::from("Which part of the human brain is responsible for regulating vital functions such as breathing, heart rate, and blood pressure?"),
+            options: ["Cerebellum".to_string(), "Hypothalamus".to_string(), "Medulla Oblongata".to_string(), "Amygdala".to_string()],
+            answer: String::from("Medulla Oblongata"),
         }
     );
 
